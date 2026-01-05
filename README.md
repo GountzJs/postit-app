@@ -1,75 +1,56 @@
-# Nuxt Minimal Starter
+# Post-it App
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Welcome to the Post-it App! This is a personal platform for organizing notes, thoughts, tools, and ideas using a "post-it" metaphor.
 
-## Setup
+## Project Goal
 
-Make sure to install dependencies:
+The main goal is to create a simple and intuitive tool to manage information across different areas of interest without creating a chaotic mess. To achieve this, the application is built around the concept of **workspaces**. Each workspace (e.g., "Frontend," "Design," "Game Dev") acts as a separate container for your post-it notes, allowing you to keep your thoughts neatly organized and context-specific.
 
-```bash
-# npm
-npm install
+## Tech Stack
 
-# pnpm
-pnpm install
+*   **Framework:** [Nuxt.js](https://nuxt.com/)
+*   **UI Library:** [Vue.js](https://vuejs.org/)
+*   **Package Manager:** [Bun](https://bun.sh/)
 
-# yarn
-yarn install
+## Getting Started
 
-# bun
-bun install
-```
+Follow these instructions to get the project up and running on your local machine.
 
-## Development Server
+### Prerequisites
+
+First, ensure you have [Bun](https://bun.sh/) installed.
+
+### Installation
+
+1.  Clone the repository:
+    ```bash
+    git clone <repository-url>
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd postit-app
+    ```
+3.  Install the dependencies:
+    ```bash
+    bun install
+    ```
+
+### Running the Development Server
 
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
 bun run dev
 ```
 
-## Production
+The app will automatically reload if you change any of the source files.
 
-Build the application for production:
+## Future Direction
 
-```bash
-# npm
-npm run build
+The project is currently in its initial development phase. The roadmap includes:
 
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+*   Building the core functionality for creating, editing, and deleting post-its.
+*   Implementing the workspace system to organize post-its.
+*   Designing a clean, intuitive, and visually appealing user interface that resembles a real-world post-it board.
+*   Adding features like drag-and-drop for post-its.
+*   Persisting data locally in the browser.
